@@ -1,0 +1,20 @@
+/* ============================================================
+   KeyCart — legal.css
+   Rechtsseiten (Impressum / Datenschutz).
+   ============================================================ */
+.legal { max-width: 780px; margin: 0 auto; padding: clamp(96px,13vh,150px) var(--pad) 6rem; }
+.legal__back { display:inline-flex; align-items:center; gap:.4rem; font-family:var(--mono); font-size:.85rem; color:var(--green-deep); text-decoration:none; margin-bottom:2.4rem; }
+.legal__back:hover { color:var(--green); }
+.legal h1 { font-family:var(--display); font-size:clamp(2rem,5vw,2.8rem); font-weight:700; color:var(--ink); margin:0 0 .4rem; letter-spacing:-.02em; }
+.legal__sub { color:var(--ink-3); font-family:var(--mono); font-size:.82rem; margin:0 0 2.6rem; line-height:1.5; }
+.legal h2 { font-family:var(--display); font-size:1.3rem; font-weight:600; color:var(--ink); margin:2.6rem 0 .7rem; }
+.legal h3 { font-size:1.02rem; font-weight:600; color:var(--ink); margin:1.5rem 0 .3rem; }
+.legal p, .legal li { color:var(--ink-2); line-height:1.7; }
+.legal ul { padding-left:1.2rem; }
+.legal a { color:var(--green-deep); }
+.legal dl { margin:.4rem 0 0; }
+.legal dt { font-weight:600; color:var(--ink); margin-top:.9rem; }
+.legal dd { margin:.1rem 0 0; color:var(--ink-2); }
+.legal .ph { background:#FFF3C4; border-bottom:1px dashed var(--orange-deep); padding:0 .25em; color:#6b4e00; font-style:normal; border-radius:3px; }
+.legal__note { background:var(--cream-2); border:1px solid var(--line); border-left:3px solid var(--orange); border-radius:var(--r-sm); padding:1rem 1.2rem; font-size:.92rem; margin:1.4rem 0; }
+.legal__foot { margin-top:4rem; padding-top:1.4rem; border-top:1px solid var(--line); font-size:.85rem; color:var(--ink-3); }
